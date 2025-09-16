@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dell\\Documents\\projects\\EcommerceAPI.Tests\\EcommerceAPI.Tests.csproj": {}
+    "C:\\Users\\Dell\\Documents\\projects\\Ecom\\EcommerceAPI.Tests\\EcommerceAPI.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dell\\Documents\\projects\\EcommerceAPI.Tests\\EcommerceAPI.Tests.csproj": {
+    "C:\\Users\\Dell\\Documents\\projects\\Ecom\\EcommerceAPI.Tests\\EcommerceAPI.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dell\\Documents\\projects\\EcommerceAPI.Tests\\EcommerceAPI.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\Dell\\Documents\\projects\\Ecom\\EcommerceAPI.Tests\\EcommerceAPI.Tests.csproj",
         "projectName": "EcommerceAPI.Tests",
-        "projectPath": "C:\\Users\\Dell\\Documents\\projects\\EcommerceAPI.Tests\\EcommerceAPI.Tests.csproj",
+        "projectPath": "C:\\Users\\Dell\\Documents\\projects\\Ecom\\EcommerceAPI.Tests\\EcommerceAPI.Tests.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dell\\Documents\\projects\\EcommerceAPI.Tests\\obj\\",
+        "outputPath": "C:\\Users\\Dell\\Documents\\projects\\Ecom\\EcommerceAPI.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

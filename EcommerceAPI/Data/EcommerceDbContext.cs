@@ -29,7 +29,13 @@ namespace EcommerceAPI.Data
                 entity.Property(u => u.Email).IsRequired().HasMaxLength(255);
 
             });
-             
+
+            modelBuilder.Entity<Category>(entity =>
+            {
+                entity.HasKey(c => c.Id);
+                entity.Property(c => c.Nome).IsRequired().HasMaxLength(100);
+            });
+
         }
     }
 }

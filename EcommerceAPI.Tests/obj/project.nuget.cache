@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1WsWpLe9HFk=",
+  "dgSpecHash": "A/4jLwErq0g=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dell\\Documents\\projects\\EcommerceAPI.Tests\\EcommerceAPI.Tests.csproj",
+  "projectFilePath": "C:\\Users\\Dell\\Documents\\projects\\Ecom\\EcommerceAPI.Tests\\EcommerceAPI.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.codecoverage\\17.14.1\\microsoft.codecoverage.17.14.1.nupkg.sha512",
