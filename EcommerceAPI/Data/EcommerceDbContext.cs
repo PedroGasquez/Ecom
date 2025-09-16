@@ -36,6 +36,17 @@ namespace EcommerceAPI.Data
                 entity.Property(c => c.Nome).IsRequired().HasMaxLength(100);
             });
 
+            modelBuilder.Entity<Product>(entity =>
+            {
+                entity.HasKey(p => p.Id);
+                entity.Property(p => p.Nome).IsRequired().HasMaxLength(200);
+                entity.Property(p => p.Preco).HasColumnType("decimal(18,2)");
+
+                entity.HasOne(p => p.Category)
+                      .WithMany(c => c.Products)
+                      .HasForeignKey(p => p.CategoryId);
+            });
+
         }
     }
 }
