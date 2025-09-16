@@ -55,7 +55,25 @@ namespace EcommerceAPI.Data
                       .WithOne(u => u.Cart)
                       .HasForeignKey<Cart>(c => c.UserId);
             });
+        }
+
+             private void SeedData(ModelBuilder modelBuilder)
+        {
+            //Populando dados iniciais para testes
+            modelBuilder.Entity<Category>().HasData(
+                new Category { Id = 1, Nome = "Eletrônicos", Descricao = "Produtos eletrônicos em geral" },
+                new Category { Id = 2, Nome = "Roupas", Descricao = "Vestuário masculino e feminino" },
+                new Category { Id = 3, Nome = "Casa e Jardim", Descricao = "Produtos para casa e jardim" }
+            );
+
+           
+            modelBuilder.Entity<Product>().HasData(
+                new Product { Id = 1, Nome = "Smartphone Samsung", Descricao = "Smartphone com 128GB", Preco = 1299.99m, EstoqueQuantidade = 50, CategoryId = 1 },
+                new Product { Id = 2, Nome = "Notebook Dell", Descricao = "Notebook i7 16GB RAM", Preco = 3499.99m, EstoqueQuantidade = 25, CategoryId = 1 },
+                new Product { Id = 3, Nome = "Camiseta Polo", Descricao = "Camiseta polo algodão", Preco = 79.99m, EstoqueQuantidade = 100, CategoryId = 2 }
+            );
 
         }
     }
 }
+
