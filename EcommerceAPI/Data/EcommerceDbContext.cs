@@ -47,6 +47,15 @@ namespace EcommerceAPI.Data
                       .HasForeignKey(p => p.CategoryId);
             });
 
+            modelBuilder.Entity<Cart>(entity =>
+            {
+                entity.HasKey(c => c.Id);
+
+                entity.HasOne(c => c.User)
+                      .WithOne(u => u.Cart)
+                      .HasForeignKey<Cart>(c => c.UserId);
+            });
+
         }
     }
 }
